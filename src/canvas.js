@@ -20,10 +20,10 @@ export class Canvas {
 
     this.carrots = [];
     this.carrotImg = new Image();
-    this.carrotImg.src = '../img/carrot.png';
+    this.carrotImg.src = '/img/carrot.png';
     this.bugs = [];
     this.bugImg = new Image();
-    this.bugImg.src = '../img/bug.png';
+    this.bugImg.src = '/img/bug.png';
 
     this.rAF;
   }
